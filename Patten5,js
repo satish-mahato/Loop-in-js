@@ -1,0 +1,10 @@
+function Pattern(num) {
+  for (let row = 1; row <= num; row += 1) {
+    let str = "";
+    for (let col = 1; col <= num - row + 1; col++) {
+      str += "*";
+    }
+    console.log(str);
+  }
+}
+Pattern(7);
